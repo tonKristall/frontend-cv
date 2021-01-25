@@ -16,11 +16,26 @@ My long-standing dream is to work in the field of programming. I like to learn n
 ### SKILLS
 
 1. Web development: _HTML, CSS_
-
    - Example:
+
+```html
+<div class="wrap wrap-actions">
+  <span class="comment__link comment__link-reply"><span>ответить</span></span>
+  <span class="comment__link comment__link-quote"><span>цитировать</span></span>
+  <span class="comment__link comment__link-complain"><span>пожаловаться</span></span>
+</div>
+```
 
 2. Basics of programming languages: _C#_
    - Example:
+
+```csharp
+Stopwatch sw = new Stopwatch();
+sw.Start();
+p = p * 1000;
+while (sw.ElapsedMilliseconds < p & Stop == false)
+    Application.DoEvents();
+```
 
 ---
 
