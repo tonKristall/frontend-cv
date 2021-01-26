@@ -1,16 +1,14 @@
 body {
   height: 100%;
   font-size: 20px;
-  border: 0;
-  margin: 0;
   padding: 0;
-  background: #99d382;
+  margin: 0;
+  background: #dceed8;
 }
 section {
   padding: 20px;
-  margin: 0 100px;
   border: 0;
-  background: #dceed8;
+  margin: 0 100px;
 }
 h1 {
   text-align: center;
@@ -20,10 +18,18 @@ h1 {
   text-align: center;
   font-style: italic;
   font-weight: bold;
+  margin-top: 20px;
 }
 .content {
   text-align: left;
 }
 p {
   margin-left: 20px;
+}
+.avatar {
+  display: block;
+  width: 250px;
+  height: 200px;
+  border-radius: 30%;
+  margin: auto;
 }
