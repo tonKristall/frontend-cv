@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,21 +6,42 @@
     <title>Aleksandr Shustov</title>
   </head>
   <body>
-    <section>
-      <h1>Aleksandr Shustov</h1>
-      <img class="avatar" src="ava.jpg" rel="Avatar">
-      <div class="contact">Phone number: +79009693037</div>
-      <div class="contact">E-mail: krisale@yandex.ru</div>
-      <div class="content">
+    <article>
+      <header>
+        <h1>Aleksandr Shustov</h1>
+        <img class="avatar" src="ava.jpg" alt="Avatar" />
+      </header>
+      <section class="contact">
+        <ul>
+          <li>Phone number: +79009693037</li>
+          <li>E-mail: krisale@yandex.ru</li>
+        </ul>
+      </section>
+      <main>
         <h2>About me</h2>
         <p>
           My long-standing dream is to work in the field of programming. I like
-          to learn new things. I never stop there.
+          to learn new things. I never rest on my laurels.
         </p>
         <h2>Skills</h2>
         <ul>
           <li>Web development: HTML, CSS</li>
+          <p>Example:</p>
+          <pre><code>
+  &lt;header&gt
+    &lt;h1&gtAleksandr Shustov&lt;/h1&gt
+    &lt;img class="avatar" src="ava.jpg" alt="Avatar"&gt
+  &lt;/header&gt
+          </code></pre>
           <li>Basics of programming languages: C#</li>
+          <p>Example:</p>
+          <pre><code>
+  Stopwatch sw = new Stopwatch();
+  sw.Start();
+  p = p * 1000;
+  while (sw.ElapsedMilliseconds < p & Stop == false)
+    Application.DoEvents()
+          </code></pre>
         </ul>
         <h2>Education</h2>
         <ol>
@@ -42,7 +63,10 @@
           <li>English (A2) without practice</li>
           <li>Russian (native)</li>
         </ul>
-      </div>
-    </section>
+      </main>
+      <footer>
+        <p>The Rolling Scopes School</p>
+      </footer>
+    </article>
   </body>
 </html>
