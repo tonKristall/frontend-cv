@@ -6,18 +6,21 @@
     <title>Aleksandr Shustov</title>
   </head>
   <body>
-    <article>
+    <main>
       <header>
         <h1>Aleksandr Shustov</h1>
         <img class="avatar" src="ava.jpg" alt="Avatar" />
       </header>
       <section class="contact">
+        <header>
+          <h2>Contacts:</h2>
+        </header>
         <ul>
           <li>Phone number: +79009693037</li>
           <li>E-mail: krisale@yandex.ru</li>
         </ul>
       </section>
-      <main>
+      <article>
         <h2>About me</h2>
         <p>
           My long-standing dream is to work in the field of programming. I like
@@ -26,23 +29,23 @@
         <h2>Skills</h2>
         <ul>
           <li>Web development: HTML, CSS</li>
-          <p>Example:</p>
-          <pre><code>
-  &lt;header&gt
-    &lt;h1&gtAleksandr Shustov&lt;/h1&gt
-    &lt;img class="avatar" src="ava.jpg" alt="Avatar"&gt
-  &lt;/header&gt
-          </code></pre>
           <li>Basics of programming languages: C#</li>
-          <p>Example:</p>
-          <pre><code>
+        </ul>
+        <p>Example HTML:</p>
+        <pre><code>
+  &lt;header&gt;
+    &lt;h1&gt;Aleksandr Shustov&lt;/h1&gt;
+    &lt;img class="avatar" src="ava.jpg" alt="Avatar"&gt;
+  &lt;/header&gt;
+          </code></pre>
+        <p>Example C#:</p>
+        <pre><code>
   Stopwatch sw = new Stopwatch();
   sw.Start();
   p = p * 1000;
-  while (sw.ElapsedMilliseconds < p & Stop == false)
+  while (sw.ElapsedMilliseconds &lt; p & Stop == false)
     Application.DoEvents()
           </code></pre>
-        </ul>
         <h2>Education</h2>
         <ol>
           <li>
@@ -63,10 +66,10 @@
           <li>English (A2) without practice</li>
           <li>Russian (native)</li>
         </ul>
-      </main>
+      </article>
       <footer>
         <p>The Rolling Scopes School</p>
       </footer>
-    </article>
+    </main>
   </body>
 </html>
