@@ -55,17 +55,14 @@ h1 {
 p {
   margin-left: 20px;
 }
+a {
+  text-decoration: none;
+  color: rgb(7, 70, 7);
+}
 footer {
   text-align: center;
   background: darkgrey;
 }
-pre {
-  overflow: hidden;
-  font-size: 1.5vh;
-  margin-left: 100px;
-  background: gainsboro;
-}
-
 
 @media (max-width: 1200px) {
   .header {
