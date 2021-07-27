@@ -6,10 +6,10 @@ body {
   background: darkseagreen;
 }
 .container {
-  max-width: 1920px;
+  max-width: 1400px;
   padding: 20px;
   border: 0;
-  margin: 0 10%;
+  margin: 0 auto;
   background: #dceed8;
 }
 .header {
